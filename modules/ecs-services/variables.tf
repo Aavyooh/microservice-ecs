@@ -1,0 +1,10 @@
+variable "env" { type = string }
+variable "cluster_id" { type = string }
+variable "private_subnet_ids" { type = list(string) }
+variable "alb_target_group_wordpress_arn" { type = string }
+variable "alb_target_group_microservice_arn" { type = string }
+variable "secret_arn" { type = string }
+variable "rds_endpoint" { type = string }
+variable "vpc_id" { type = string }
+variable "db_username" { type = string }
+variable "ecr_repo_url" {type = string }
